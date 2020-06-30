@@ -1,0 +1,237 @@
+/* line 1, ../../../../Desktop/developing_b4/sources/scss/style.scss */
+body {
+  position: relative; }
+
+/* line 5, ../../../../Desktop/developing_b4/sources/scss/style.scss */
+.container-fluid .carousel-caption {
+  top: 30%; }
+  /* line 7, ../../../../Desktop/developing_b4/sources/scss/style.scss */
+  .container-fluid .carousel-caption i {
+    font-size: 100px;
+    color: #D0D3D4; }
+  /* line 11, ../../../../Desktop/developing_b4/sources/scss/style.scss */
+  .container-fluid .carousel-caption h1 {
+    font-size: 70px; }
+
+/* line 17, ../../../../Desktop/developing_b4/sources/scss/style.scss */
+.container-fluid .carousel-indicators li.active {
+  background-color: green; }
+
+/* line 24, ../../../../Desktop/developing_b4/sources/scss/style.scss */
+#site-nav a.active {
+  background-color: #228B22; }
+
+/* line 28, ../../../../Desktop/developing_b4/sources/scss/style.scss */
+span {
+  color: #52BE80;
+  font-weight: bold; }
+
+/* line 32, ../../../../Desktop/developing_b4/sources/scss/style.scss */
+p.text-center, .my, .text {
+  color: gray; }
+
+/* line 35, ../../../../Desktop/developing_b4/sources/scss/style.scss */
+.images {
+  display: flex; }
+  /* line 37, ../../../../Desktop/developing_b4/sources/scss/style.scss */
+  .images .img {
+    position: relative;
+    margin: 0 auto; }
+    /* line 40, ../../../../Desktop/developing_b4/sources/scss/style.scss */
+    .images .img:after {
+      content: '';
+      display: block;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      background-color: rgba(105, 105, 105, 0.4); }
+    /* line 50, ../../../../Desktop/developing_b4/sources/scss/style.scss */
+    .images .img:hover:after {
+      opacity: 0; }
+    /* line 54, ../../../../Desktop/developing_b4/sources/scss/style.scss */
+    .images .img img {
+      display: block; }
+
+/* line 59, ../../../../Desktop/developing_b4/sources/scss/style.scss */
+#top {
+  background-image: url("/img/top.uE0MM.png");
+  display: none;
+  text-decoration: none;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  overflow: hidden;
+  width: 51px;
+  height: 51px;
+  border: none;
+  text-indent: 100%; }
+  /* line 71, ../../../../Desktop/developing_b4/sources/scss/style.scss */
+  #top:hover {
+    opacity: 0.7; }
+
+/* line 75, ../../../../Desktop/developing_b4/sources/scss/style.scss */
+b {
+  color: #3CB371; }
+
+/* line 79, ../../../../Desktop/developing_b4/sources/scss/style.scss */
+.blockquote.blockquote-custom {
+  position: relative;
+  font-size: 1.1rem; }
+
+/* line 83, ../../../../Desktop/developing_b4/sources/scss/style.scss */
+.blockquote .blockquote-custom-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: -25px;
+  left: 50px; }
+
+/* line 95, ../../../../Desktop/developing_b4/sources/scss/style.scss */
+.blockquote footer cite {
+  color: #3CB371; }
+
+/* line 101, ../../../../Desktop/developing_b4/sources/scss/style.scss */
+.icon, .icons {
+  font-size: 30px; }
+
+/* line 105, ../../../../Desktop/developing_b4/sources/scss/style.scss */
+.ein .small-text {
+  color: gray; }
+
+/* line 108, ../../../../Desktop/developing_b4/sources/scss/style.scss */
+.ein:hover {
+  color: #3CB371; }
+
+/* line 112, ../../../../Desktop/developing_b4/sources/scss/style.scss */
+.down {
+  background-color: green;
+  padding: 15px 0 0 0.2px;
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+  color: white; }
+  /* line 119, ../../../../Desktop/developing_b4/sources/scss/style.scss */
+  .down:hover {
+    opacity: 0.5; }
+
+/* line 123, ../../../../Desktop/developing_b4/sources/scss/style.scss */
+.up {
+  font-size: 20px;
+  color: #3CB371; }
+
+/* line 128, ../../../../Desktop/developing_b4/sources/scss/style.scss */
+h5:hover {
+  color: #3CB371; }
+
+/* line 132, ../../../../Desktop/developing_b4/sources/scss/style.scss */
+.text {
+  font-size: 15px; }
+
+/* line 135, ../../../../Desktop/developing_b4/sources/scss/style.scss */
+a.meetup {
+  color: #3CB371; }
+  /* line 137, ../../../../Desktop/developing_b4/sources/scss/style.scss */
+  a.meetup:hover {
+    color: green; }
+
+/* line 141, ../../../../Desktop/developing_b4/sources/scss/style.scss */
+.map-container-6 {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+  box-shadow: 0 10px 6px -2px gray; }
+  /* line 147, ../../../../Desktop/developing_b4/sources/scss/style.scss */
+  .map-container-6 iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute; }
+
+/* line 156, ../../../../Desktop/developing_b4/sources/scss/style.scss */
+h4 {
+  background-color: green;
+  color: white;
+  padding: 20px; }
+
+/* line 163, ../../../../Desktop/developing_b4/sources/scss/style.scss */
+.icons {
+  color: gray; }
+
+/* line 166, ../../../../Desktop/developing_b4/sources/scss/style.scss */
+.form {
+  border: none;
+  border-bottom: 1px solid #A9A9A9; }
+
+/* line 170, ../../../../Desktop/developing_b4/sources/scss/style.scss */
+.card {
+  box-shadow: 0 10px 6px -2px gray;
+  margin-top: 35px;
+  position: relative; }
+
+/* line 176, ../../../../Desktop/developing_b4/sources/scss/style.scss */
+.form-header {
+  background-color: green;
+  position: absolute;
+  top: -1px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  box-shadow: 0 10px 6px -2px gray; }
+
+/* line 186, ../../../../Desktop/developing_b4/sources/scss/style.scss */
+.downs {
+  background-color: green;
+  padding: 20px;
+  padding-top: 15px;
+  border-radius: 50%;
+  box-shadow: 0 10px 6px -2px gray;
+  color: white;
+  font-size: 20px; }
+  /* line 194, ../../../../Desktop/developing_b4/sources/scss/style.scss */
+  .downs:hover {
+    opacity: 0.5; }
+
+/* line 198, ../../../../Desktop/developing_b4/sources/scss/style.scss */
+.down1, .down2, .down3, .down4, .down5 {
+  background-color: green;
+  padding: 15px 0 0 0.2px;
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+  color: white; }
+  /* line 205, ../../../../Desktop/developing_b4/sources/scss/style.scss */
+  .down1:hover, .down2:hover, .down3:hover, .down4:hover, .down5:hover {
+    opacity: 0.5;
+    box-shadow: 0 10px 6px -2px black; }
+
+/* line 210, ../../../../Desktop/developing_b4/sources/scss/style.scss */
+h5.footer {
+  color: white; }
+  /* line 212, ../../../../Desktop/developing_b4/sources/scss/style.scss */
+  h5.footer:hover {
+    color: #3CB371; }
+
+/* line 217, ../../../../Desktop/developing_b4/sources/scss/style.scss */
+.elem {
+  display: inline-block;
+  font-size: 0;
+  width: 17%;
+  height: auto;
+  margin-left: -10px;
+  margin-top: 40px; }
+  /* line 224, ../../../../Desktop/developing_b4/sources/scss/style.scss */
+  .elem > span {
+    display: block;
+    cursor: pointer;
+    height: 0;
+    width: 500px;
+    padding-bottom: 70%;
+    background-size: contain;
+    background-repeat: no-repeat; }
